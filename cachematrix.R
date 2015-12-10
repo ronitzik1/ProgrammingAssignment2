@@ -51,6 +51,8 @@ cacheSolve <- function(x, ...) {
         return (m)
 }
 
+
+## Just a simple test function.
 test <- function() {
         ## This matrix should almost always be invertible
         myMatrix <- matrix(rnorm(25), 5, 5)
